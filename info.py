@@ -20,7 +20,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://growing-row-prajwalpatil-895109b2.koyeb.app/")
+URL = environ.get("URL", "https://equivalent-jessamine-prajwalpatil-283999a4.koyeb.app/")
 
 # Admins, Channels & Users
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003114781601'))
